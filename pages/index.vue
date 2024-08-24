@@ -1,7 +1,7 @@
 <template>
   <div class="bg-red-400">
     <p>
-      L
+      test
     </p>
   </div>
 </template>
