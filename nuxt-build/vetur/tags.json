@@ -1,0 +1,26 @@
+{
+  "AboutUs": {
+    "description": "Auto imported from components/aboutUs.vue"
+  },
+  "ContactUs": {
+    "description": "Auto imported from components/contactUs.vue"
+  },
+  "Cusfooter": {
+    "description": "Auto imported from components/cusfooter.vue"
+  },
+  "Faq": {
+    "description": "Auto imported from components/faq.vue"
+  },
+  "JumbotronComponent": {
+    "description": "Auto imported from components/JumbotronComponent.vue"
+  },
+  "NavibarComponent": {
+    "description": "Auto imported from components/NavibarComponent.vue"
+  },
+  "ProductPricing": {
+    "description": "Auto imported from components/ProductPricing.vue"
+  },
+  "Ratings": {
+    "description": "Auto imported from components/ratings.vue"
+  }
+}
