@@ -3,25 +3,31 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - SambalBuIka',
-    title: 'SambalBuIka',
+    titleTemplate: '%s - Mbak Ika',
+    title: 'Sambal Pecel',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Sambal Pecel Mbak Ika' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.ico' }
     ]
+  },
+
+  server: {
+    host: '192.168.100.51', // Default is localhost
+    port: 3000 // Default is 3000
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/tailwind.css',
+    '@mdi/font/css/materialdesignicons.min.css'
     // other styles...
   ],
 
@@ -34,8 +40,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],

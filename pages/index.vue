@@ -1,7 +1,13 @@
 <template>
-  <div class="bg-red-400">
-    <p>
-      test
-    </p>
+  <div>
+    <navibar-component />
+    <jumbotron-component />
+    <about-us />
+    <product-pricing />
+    <ratings />
+    <faq />
+    <contact-us />
+
+    <cusfooter />
   </div>
 </template>
