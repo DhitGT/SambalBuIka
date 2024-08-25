@@ -19,10 +19,7 @@ export default {
     ]
   },
 
-  server: {
-    host: '192.168.100.51', // Default is localhost
-    port: 3000 // Default is 3000
-  },
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
